@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* write your CSS here */
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app{
+    text-align: center;
+    width: 770px;
+    height: auto;
+    border-radius: 16px;
+    padding: 29px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.app-qa{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    margin-top: 26px;
+}
+
+.qa-answer{
+    max-width: 80%;
+}
+.header{
+    font-weight: bold;
+}
+
+.subheader{
+    max-width: 266px;
+    word-break: break-all;
+    margin: 0 auto; 
+    margin-top: 3px;
+}
+
+.qa-item{
+    height: auto;
+}
+
+.qa-show{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.qa-question-icon{
+    position: absolute;
+    right: 14px;
+    cursor: pointer;
+}
+.qa-hide{
+    width: 100%;
+        text-align: left;
+        margin-left: 14px;
+        display: none;
+        height: auto;
+}
+.item1{
+    background-color: #FFEDD5;
+    border-left: 5px solid #FB923C;
+    padding: 8px;
+}
+
+
+.item2{
+    background-color: #E0E7FF;
+    border-left: 5px solid #818CF8;
+    padding: 8px;
+
+}
+
+.item3{
+    background-color: #EDE9FE;
+    border-left: 5px solid #A78BFA;
+    padding: 8px;
+
+}
+.item4{
+    background-color: #FCE7F3;
+    border-left: 5px solid #F472B6;
+    padding: 8px;
+
+}
+.item5{
+    background-color: #F0FDF4;
+    border-left: 5px solid #4ADE80;
+    padding: 8px;
+
+}
+.bold{
+    font-weight: bold;
+}
+
+.qa-question{
+    line-height: 40px;
+    margin-left: 14px;
+
+}
+
+@media (max-width: 768px){
+    .qa-question{
+        line-height: unset;
+        max-width: 80%;
+    }
+}
+.hide{
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
+.exit{
+    display: none;
+}
